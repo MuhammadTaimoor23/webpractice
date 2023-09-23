@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: tomato;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 786px) {
+  h1 {
+    margin-top: 100%;
+  }
+}
